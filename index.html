@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.png">
+    <script defer src="./assets/js/main.js"></script>
+    <title>Escala RGB</title>
+</head>
+
+<body>
+    <h1>Seletor de Cores RGB</h1>
+    <main>
+        <div class="inputs">
+            <label style="color:Red">(R) Red</label>
+            <p> <input oninput="trocaCor()" type="range" class="inputUm" min="0" max="255"><input disabled type="text"
+                    class="textUm">
+            </p>
+            <label style="color: green">(G) Green</label>
+            <p> <input oninput="trocaCor()" type="range" class="inputDois" min="0" max="255"><input disabled type="text"
+                    class="textDois"><br>
+            </p>
+
+            <label style="color: blue;">(B) Blue</label>
+            <p> <input oninput="trocaCor()" type="range" class="inputTres" min="0" max="255"><input disabled type="text"
+                    class="textTres"><br>
+            </p>
+            <button class="rand">Cor aleatória</button>
+
+        </div>
+        <div class="quadrado">
+
+        </div>
+
+        <div class="texto">
+            <p class="textoRGB"></p>
+        </div>
+    </main>
+</body>
+
+</html>

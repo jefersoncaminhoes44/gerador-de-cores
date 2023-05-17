@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 680px;
+    margin: auto;
+    font-family: 'Roboto', cursive;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+label {
+    text-shadow: 2px 2px black;
+}
+
+main {
+    background-color: rgb(17, 86, 102);
+    margin-top: 10px;
+    padding: 50px;
+    border-radius: 8px;
+    border: solid 3px white;
+}
+
+h1 {
+    margin-top: 30px;
+    text-shadow: 2px 2px blue;
+    text-align: center;
+}
+
+.inputs {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.inputUm, .inputDois, .inputTres {
+    cursor: pointer;
+}
+
+.quadrado {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    text-align: center;
+    margin: auto;
+    border: solid 3px white;
+}
+
+.textUm,
+.textDois,
+.textTres {
+    font-weight: bolder;
+    background-color: azure;
+    width: 50px;
+    text-align: center;
+    margin-left: 30px;
+    border: solid 3px blue;
+    border-radius: 8px;
+}
+
+.texto p {
+    margin: auto;
+    margin-top: 20px;
+}
+
+.textoRGB {
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+    width: 30%;
+    border-radius: 8px;
+    text-align: center;
+    border: solid 3px white;
+    padding: 10px;
+}
+
+.rand {
+    width: 20%;
+    height: 40px;
+    border-radius: 8px;
+    border: solid 2px black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.rand:hover{
+    padding-bottom: 15px;
+    transition: .5s;
+}
